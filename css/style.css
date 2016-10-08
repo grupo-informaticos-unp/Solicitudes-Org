@@ -1,0 +1,123 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #0C377F;
+}
+
+#contenedor{
+	  /* width: 85%; */
+  /* margin: 0px auto; */
+  background-color: #136798;
+}
+
+/*cabecera*/
+#cabecera{
+	width: 100%;
+  	text-align: center;
+  	font-family: cursive;
+  	font-size: -webkit-xxx-large;
+  	font-style: oblique;
+}
+
+#cabecera h1 {
+  margin: 0px;
+  color: #fff;
+  text-shadow: rgb(17, 7, 123) 1px 2px 10px rgb(3, 24, 65);
+}
+
+/*solicitud*/
+
+#solicitud {
+  width: 100%;
+  background-color: #6498c1;
+}
+
+select#universidad {
+  width: 20%;
+}
+
+select#facultad {
+  width: 15%;
+}
+
+select#escuela {
+  width: 15%;
+}
+
+select#solicitudes {
+  width: 50%;
+}
+
+/*Tramites*/
+section#tramite {
+  width: 100%;
+  background-color: #98cbcb;
+}
+
+select#tramites {
+  width: 70%;
+}
+
+/*Comentario*/
+section#comentario {
+  width: 100%;
+  background-color: #9cceff;
+}
+
+/*Experiencias*/
+section#experiencias {
+  width: 100%;
+  background-color: rgb(72, 142, 227);
+  font-family: cursive;
+  text-align: center;
+}
+
+#experiencias article {
+    width: 45%;
+  	text-align: center;
+  	float: left;
+  	margin: 20px;
+}
+
+div#clear {
+  clear: both;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  width: 100%;
+  font-family: fantasy;
+  font-size: x-large;
+  /* padding: 20px 30px; */
+}
+
+
+form {
+  width: 75%;
+  margin: 0px auto;
+  padding: 20px 0px;
+  font-family: cursive;
+}
+
+form p, #experiencias p{
+  font-size: -webkit-xxx-large;
+  margin: 0px;
+}
+
+form input ,
+form select{
+  margin: 20px;
+}
+
+input, select,textarea {
+  border-radius: 20px;
+  box-shadow: rgb(5, 0, 58) 1px 2px 10px;
+}
+
+input[type="submit"] {
+  font-size: x-large;
+  color: blue;
+  background-color: #fff;
+  cursor: pointer;
+}
